@@ -16,7 +16,7 @@ r := gutil.ListOf("a", "b", "c").Reverse().ToList().([]string)
 fmt.Printf("%v\n", r)
 //print: [c b a]
 ```
-#### 其他
+#### 流式api
 ```go
 s := []int {1, 2, 3, 4}
 ss := gutil.ListOf(s).Where(func(i interface{}) bool {
