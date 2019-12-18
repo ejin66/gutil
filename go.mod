@@ -1,3 +1,3 @@
-module github.com/ejin/gutil
+module gutil
 
 go 1.13
