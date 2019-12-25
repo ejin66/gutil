@@ -2,7 +2,18 @@
 支持对array/slice/不定长入参的糖语法API
 
 ## install
-require github.com/ejin66/gutil v0.0.1
+go.mod
+```bash
+go mod edit -require github.com/ejin66/gutil@v0.0.1
+go mod tidy
+```
+
+import
+```go
+import (
+  "github.com/ejin66/gutil"
+)
+```
 
 ## example
 #### ForEach
